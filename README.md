@@ -1,75 +1,50 @@
-# Frontend File Vault Dashboard
+Frontend File Vault Dashboard
 
-This project is a frontend-only **File Vault Dashboard** built using **Next.js (React)**.  
-It simulates a lightweight file management interface without requiring a backend.
+This project is a frontend-only File Vault Dashboard built using Next.js and React.
+It simulates basic file management functionality without using any backend.
 
-The application allows users to upload files, view file details, preview images, search files, and delete entries — all handled inside the browser using local storage.
+Users can upload files, view file details like name, size and type, preview images, search files, and delete them from the list. The uploaded file data is stored in browser local storage so it remains available after refreshing the page.
 
----
-
-## 🚀 Live Demo
-
+Live link:
 https://file-vault-ui.vercel.app
 
----
-
-## 📂 GitHub Repository
-
+GitHub repo:
 https://github.com/Pranjalmishr1/file-vault-ui
 
----
+Features
+Upload files
+Display file list
+Delete files
+Show file name, size and type
+Image preview support
+Drag and drop upload
+Search uploaded files
+LocalStorage persistence
+Responsive dashboard layout
+Tech Stack
 
-## 📌 Features Implemented
+Next.js
+React
+Tailwind CSS
+LocalStorage API
 
-Core requirements:
+Run locally
 
-✔ Upload files (stored in browser memory)  
-✔ Display uploaded file list  
-✔ Delete files from list  
-✔ Show file name  
-✔ Show file size  
-✔ Show file type  
-✔ Clean responsive UI layout  
+Clone the project:
 
-Bonus enhancements:
-
-✔ Drag & Drop file upload  
-✔ Image preview support  
-✔ Click-to-open image modal preview  
-✔ File search functionality  
-✔ Latest uploaded files shown first  
-✔ LocalStorage persistence (data remains after refresh)  
-✔ File type badges (PDF / DOC / IMAGE)  
-✔ Dashboard-style dark UI  
-
----
-
-## 🛠 Tech Stack
-
-- Next.js (App Router)
-- React Hooks
-- Tailwind CSS
-- LocalStorage API
-
----
-
-## 📸 How It Works
-
-Users can:
-
-1. Upload files using button or drag-and-drop
-2. View file metadata instantly
-3. Search uploaded files
-4. Preview images in modal view
-5. Delete files from dashboard
-
-All file data is stored locally in browser storage.
-
----
-
-## ▶ Running Locally
-
-Clone the repository:
-
-```bash
 git clone https://github.com/Pranjalmishr1/file-vault-ui.git
+
+Install dependencies:
+
+npm install
+
+Start the server:
+
+npm run dev
+
+Open:
+
+http://localhost:3000
+
+Author:
+Pranjal Mishra
